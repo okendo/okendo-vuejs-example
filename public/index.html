@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>okendo-vuejs-example</title>
+
+    <link href="https://d3hw6dc1ow8pp2.cloudfront.net/styles/main.min.css" rel="stylesheet" type="text/css">
+    <script async src="https://d3hw6dc1ow8pp2.cloudfront.net/reviewsWidget.min.js"></script>
+    <script>
+      window.okeReviewsWidgetOnInit = function (okendoInitApi) {
+        window.okendoInitApi = okendoInitApi;
+      }
+    </script>
+    <script type="application/json" id="oke-reviews-settings">
+      {"subscriberId":"1ec34ba6-5bcc-4cb7-8506-0f7f27207988"}
+    </script>
+    
   </head>
   <body>
     <noscript>
